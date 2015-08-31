@@ -1,11 +1,11 @@
-Sample: bluelist-push-android
+Sample: push notification android app
 ===
 
-The bluelist-push-android sample builds upon the bluelist-mobiledata-android sample to add notifications from the Push service with Cloud Code.
+The EventsWizard sample adds notifications from the Push service with Cloud Code.
 
 This sample works with the Mobile Cloud, an application boilerplate that is available on [IBM Bluemix](https://www.ng.bluemix.net).  With this boilerplate, you can quickly incorporate pre-built, managed, and scalable cloud services into your mobile applications without relying on IT involvement. You can focus on building your mobile applications rather than the complexities of managing the back end infrastructure.
 
-After you run the sample and add some items to the list, you can see your data is synchronized between multiple devices.  You can also send push notifications to your devices from the Push service in the Bluemix dashboard.
+You can also send push notifications to your devices from the Push service in the Bluemix dashboard.
 
 Creating the Mobile Cloud boilerplate application
 ---
@@ -15,16 +15,8 @@ Creating the Mobile Cloud boilerplate application
 4. Enter in App Info & select 'Create'
 5. You now have a mobile cloud backend, providing you with some mobile services on the cloud!
 
-Downloading this sample
+Downloading this sample https://github.com/Denusdv/insight2015_mobile_client
 ---
-
-You can clone the samples from IBM DevOps Services with the following command:
-
-    git clone https://hub.jazz.net/git/mobilecloud/bluelist-push
-
-The bluelist-push-android sample will be located within the bluelist-push directory you just created.
-
-The bluelist-push-node code is the Node.js runtime code used with the bluelist-push-android sample.
 
 Running this sample
 ---
